@@ -44,7 +44,7 @@ client.on('message', async message => {
         }).then((result) => {
             const embed = new Discord.MessageEmbed()
                 .setImage(result.data.cards[0].image)
-                .setDescription(`Cartas restantes no bralho: ${result.data.remaining}`);
+                .setDescription(`Cartas restantes no baralho: ${result.data.remaining}`);
             message.reply(embed);
         }).catch((error) => {
             console.log(error);
