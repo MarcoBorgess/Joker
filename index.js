@@ -1,7 +1,6 @@
 const Discord = require('discord.js');
 const axios = require('axios');
 const client = new Discord.Client();
-require('dotenv').config();
 
 const TOKEN = process.env.BOT_TOKEN
 var prefix = "$";
