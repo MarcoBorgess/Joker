@@ -1,8 +1,9 @@
 const Discord = require('discord.js');
 const axios = require('axios');
 const client = new Discord.Client();
+require('dotenv').config();
 
-const TOKEN = 'OTgzODgyMTg1NDM2MTc2NDM0.Go5lA1.6vDvWnqfltCKZepbmzd7mlHUtedF4FjAgFJf5c';
+const TOKEN = process.env.BOT_TOKEN
 var prefix = "$";
 var baralho = "2ylp40zxgtcc";
 
